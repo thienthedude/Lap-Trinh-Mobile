@@ -14,6 +14,17 @@
         <Button Text="Add"
                 Grid.Row="1"
                 Grid.Column="1" />
+
+        <CollectionView Grid.Row="2"
+                        Grid.ColumnSpan="2">
+            <CollectionView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Apples</x:String>
+                    <x:String>Bananas</x:String>
+                    <x:String>Oranges</x:String>
+                </x:Array>
+            </CollectionView.ItemsSource>
+        </CollectionView>
     </Grid>
 
 </ContentPage>
