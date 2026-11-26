@@ -6,7 +6,14 @@
     <Grid RowDefinitions="100, Auto, *"
           ColumnDefinitions=".75*, .25*"
           Padding="10">
-
+        <Image Grid.ColumnSpan="2"
+               Source="logo.png"
+               BackgroundColor="Black" />
+        <Entry Placeholder="Enter Task"
+               Grid.Row="1" />
+        <Button Text="Add"
+                Grid.Row="1"
+                Grid.Column="1" />
     </Grid>
 
 </ContentPage>
